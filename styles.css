@@ -1,0 +1,48 @@
+.title {
+    font-size: 54px;
+    text-align: center;
+    font-weight: bold;
+    background-color: aliceblue;
+    font-family: Garamond, "Times New Roman", serif;
+}
+
+.subtitle {
+    font-size: 30px;
+    font-family: Verdana, Helvetica, sans-serif;
+    text-align: center;
+    font-style: italic;
+}
+
+.link {
+    font-size: 24px;
+    font-style: italic;
+    font-family: Verdana, Helvetica, sans-serif;
+}
+
+.img-index {
+    width: auto;
+    height: 300px;
+}
+
+.img-food {
+    width: 700px;
+    height: auto;
+}
+
+.list-menu {
+    font-size: 38px;
+    background-color: floralwhite;
+    font-family: Verdana, Helvetica, sans-serif;
+}
+
+.list-food {
+    font-size: 18px;
+    background-color: floralwhite;
+    font-family: Verdana, Helvetica, sans-serif;
+}
+
+.description {
+    font-size: 20px;
+    font-family: Verdana, Helvetica, sans-serif;
+    text-align: center;
+}
