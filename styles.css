@@ -1,48 +1,133 @@
+/* Index page*/
+
+/* title index and recipes pages */
 .title {
-    font-size: 54px;
+    font-size: 70px;
     text-align: center;
     font-weight: bold;
-    background-color: aliceblue;
+    color: #021F59;
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border: 7px;
+    border-color: #021F59;
+    border-style: double groove;
+    border-radius: 4px;
     font-family: Garamond, "Times New Roman", serif;
 }
 
+/* image index */
+.img-index {
+    width: auto;
+    height: auto;
+    margin: auto;
+    display: block;
+    margin-top: -20px;
+    margin-bottom: 40px;
+}
+
+/* list index (box)*/
+.list-menu {
+    font-size: 38px;
+    background-color: #D1E2F0;
+    font-family: Verdana, Helvetica, sans-serif;
+    padding: 20px;
+    margin: auto; 
+    margin-left: 150px;
+    margin-right: 150px;
+    display: block;
+    text-align: center;
+    list-style: none;
+    border: 5px;
+    border-color: #021F59;
+    border-style: groove double;
+    border-radius: 4px;
+}
+
+/* div index (links recipes)*/
+.separation {
+    margin-bottom: 14px;
+    color: #021F59;
+    background-color: white;
+    /* display: inline-block; */
+    /* margin-right: 350px;
+    margin-left: 350px; */
+    border-style: double groove;
+    border-radius: 4px;
+}
+
+/* Recipes pages */
+
+/* link home */
+.link {
+    font-size: 27px;
+    font-style: italic;
+    font-family: Verdana, Helvetica, sans-serif;
+    padding: 8px;
+    margin-top: -27px;
+    margin-left: -4px;
+    margin-bottom: -30px;
+    position:fixed;
+}
+
+/* recipe images, subpages */
+.img-food {
+    width: 700px;
+    height: auto;
+    border-radius: 13px;
+    margin: auto;
+    display: block;
+}
+
+/* subtitles recipes  */
 .subtitle {
     font-size: 30px;
     font-family: Verdana, Helvetica, sans-serif;
     text-align: center;
-    font-style: italic;
+    font-style: italic;  
+    color: #021F59;  
+    border-radius: 4px;
 }
 
-.link {
-    font-size: 24px;
-    font-style: italic;
-    font-family: Verdana, Helvetica, sans-serif;
-}
-
-.img-index {
-    width: auto;
-    height: 300px;
-}
-
-.img-food {
-    width: 700px;
-    height: auto;
-}
-
-.list-menu {
-    font-size: 38px;
-    background-color: floralwhite;
-    font-family: Verdana, Helvetica, sans-serif;
-}
-
-.list-food {
-    font-size: 18px;
-    background-color: floralwhite;
-    font-family: Verdana, Helvetica, sans-serif;
-}
-
+/* recipe description text */
 .description {
     font-size: 20px;
     font-family: Verdana, Helvetica, sans-serif;
     text-align: center;
+    color: #021F59;
+    padding: 20px;
+    margin: auto; 
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80em;
+    /* display: block; */
+    border: 5px;
+    border-color: #021F59;
+    border-style: groove double;
+    border-radius: 4px;
+}
+
+/* align ingredients */
+.align{
+    text-align: center;
+}
+
+/* list ingredients and preparation */
+.list-food {
+    font-size: 20px;
+    background-color: #D1E2F0;
+    font-family: Verdana, Helvetica, sans-serif;
+    list-style: none;
+    color: #021F59;
+    padding: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80em;
+    border-style: double groove;
+    border-radius: 4px;
+}
+
+/* margin of the recipe boxes */
+.margin{
+    margin: 10px;
 }
